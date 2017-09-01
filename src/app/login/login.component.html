@@ -1,0 +1,32 @@
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+
+<div class="container">
+      
+      <script id="metamorph-1-start" type="text/x-placeholder"></script><script id="metamorph-21-start" type="text/x-placeholder"></script>
+
+	<div class="container text-center">
+	    <form class="form-signin" data-ember-action="2">
+	    	<h2 class="form-signin-heading">Sign in</h2>
+
+
+
+			<small class="text-muted">Connect with your favorite social network</small>
+			<br><br>
+
+			
+<p>
+<a class="btn btn-primary social-login-btn social-google"  (click)="loginWithGoogle()"><i class="fa fa-google-plus"></i></a>
+<a class="btn btn-primary social-login-btn social-facebook" (click)="loginWithFaceBook()" ><i class="fa fa-facebook"></i></a>
+<a class="btn btn-primary social-login-btn social-twitter" href="/auth/twitter"><i class="fa fa-twitter"></i></a>
+<a class="btn btn-primary social-login-btn social-github" (click)="loginWithGithub()" ><i class="fa fa-github"></i></a>
+
+</p>
+		 <small class="create-account text-muted">Dont have a account or social network account?</small><br>
+		  <button id="ember363" class="btn btn-lg btn-primary btn-block btn-center"> Sign Up </button> 
+	    </form>
+
+	
+	   <p style="color:red;">{{errorMsg}}</p>
+    </div>
+
+    
